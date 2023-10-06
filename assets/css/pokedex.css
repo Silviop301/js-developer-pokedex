@@ -373,11 +373,11 @@ Implementações no Código para o Desafio
         margin: 0.2rem;
     }
 }
-@media (max-aspect-ratio: 16/9) and (max-width: 768px) {
-    .pokemonModal {
-        width: 90%; /* Ocupa 90% da largura da tela. */
-        height: 90vh; /* Ocupa 90% da altura da tela. */
-        margin: 5% auto; /* Pequena margem para não tocar exatamente as bordas da tela. */
-        /* ... talvez outros ajustes de estilo conforme necessário ... */
+@media (max-width: 414px) {
+    .pokemon-modal {
+        width: 95%;
+        height: 85vh;
+        margin: 2.5% auto; /* Isso manterá uma pequena margem ao redor do modal para evitar que ele toque as bordas da tela. */
+        /* ... outros ajustes de estilo conforme necessário ... */
     }
 }
