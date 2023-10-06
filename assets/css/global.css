@@ -8,7 +8,7 @@ body {
     background: url(/js-developer-pokedex/assets/img/background.jpg);
     background-size: cover;
     background-attachment: fixed;
-
+    background-color: #a8cf88;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
