@@ -357,3 +357,20 @@ Implementações no Código para o Desafio
 .pokemon-modal-content.active{
     text-transform: capitalize;
 }
+.right-side img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 480px) {
+    .top-third .left-side, .top-third .right-side {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 480px) {
+    .type {
+        font-size: 0.7rem;
+        margin: 0.2rem;
+    }
+}
+
