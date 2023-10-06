@@ -377,7 +377,6 @@ Implementações no Código para o Desafio
     .pokemon-modal {
         width: 95%;
         height: 85vh;
-        margin: 2.5% auto; /* Isso manterá uma pequena margem ao redor do modal para evitar que ele toque as bordas da tela. */
-        /* ... outros ajustes de estilo conforme necessário ... */
+        margin: 2.5% auto;
     }
 }
