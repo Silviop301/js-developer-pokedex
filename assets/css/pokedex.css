@@ -376,4 +376,8 @@ Implementações no Código para o Desafio
         height: 85vh;
         margin: 2.5% auto;
     }
+    .pokemon-modal .close{
+        width: 30px;
+        height: 30px;
+    }
 }
