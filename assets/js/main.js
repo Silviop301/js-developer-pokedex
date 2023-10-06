@@ -80,7 +80,7 @@ function openPokemonModal(pokemon) {
         }).join('');
     
         modal.innerHTML = `
-        <button class="close" onclick="closePokemonModal()">×</button>
+        <img src="/js-developer-pokedex/assets/img/cancel.png" class="close" onclick="closePokemonModal()">
         
         <div class="top-third">
             <div class="left-side">
